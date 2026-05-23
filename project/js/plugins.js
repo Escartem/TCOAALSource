@@ -20,5 +20,6 @@ var $plugins =
 {"name":"AudioStreaming","status":true,"description":"Load audio faster and use only ogg files.","parameters":{"mode":"10","deleteM4a":"false"}},
 {"name":"stbvorbis_stream","status":false,"description":"","parameters":{}},
 {"name":"stbvorbis_stream_asm","status":false,"description":"","parameters":{}},
-{"name":"game","status":true,"description":"","parameters":{}}
+{"name":"game","status":true,"description":"","parameters":{}},
+{"name":"game_original","status":false,"description":"","parameters":{}}
 ];

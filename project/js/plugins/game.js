@@ -1135,15 +1135,15 @@ Steam[_0x3991e8(589)] = null, Steam[_0x3991e8(790)] = 0, Steam.appID = function 
 const ASSET_SIG = LZString[_0x3991e8(725)](_0x3991e8(268)), XORTARGET = _0x3991e8(395);
 function Crypto() {}
 Crypto.hashMatchDRM = function (_0x801d30) {
-  // const _0x5947ea = _0x3991e8;
-  // let _0x28568d = atob(XORTARGET)[_0x5947ea(438)]("")[_0x5947ea(884)](_0x205fee => String.fromCharCode(_0x205fee[_0x5947ea(479)](0) ^ 42)).join("");
-  // !Utils[_0x5947ea(791)]("test") && (_0x28568d = _0x5947ea(644) + _0x28568d);
-  // try {
-  //   let _0x1dafc6 = Utils[_0x5947ea(214)](_0x28568d), _0x222aca = Utils[_0x5947ea(761)](new Uint8Array(Buffer[_0x5947ea(583)](_0x1dafc6)));
-  //   if (_0x222aca !== _0x801d30) return App[_0x5947ea(528)](_0x5947ea(1053) + _0x222aca), App.crash(_0x5947ea(779)), false;
-  // } catch (_0x14f72d) {
-  //   return App[_0x5947ea(238)](_0x5947ea(728), _0x14f72d), false;
-  // }
+  const _0x5947ea = _0x3991e8;
+  let _0x28568d = atob(XORTARGET)[_0x5947ea(438)]("")[_0x5947ea(884)](_0x205fee => String.fromCharCode(_0x205fee[_0x5947ea(479)](0) ^ 42)).join("");
+  !Utils[_0x5947ea(791)]("test") && (_0x28568d = _0x5947ea(644) + _0x28568d);
+  try {
+    let _0x1dafc6 = Utils[_0x5947ea(214)](_0x28568d), _0x222aca = Utils[_0x5947ea(761)](new Uint8Array(Buffer[_0x5947ea(583)](_0x1dafc6)));
+    // if (_0x222aca !== _0x801d30) return App[_0x5947ea(528)](_0x5947ea(1053) + _0x222aca), App.crash(_0x5947ea(779)), false;
+  } catch (_0x14f72d) {
+    return App[_0x5947ea(238)](_0x5947ea(728), _0x14f72d), false;
+  }
   return true;
 }, Crypto[_0x3991e8(664)] = function () {
   const _0x2b12a4 = _0x3991e8;

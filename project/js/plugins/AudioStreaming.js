@@ -634,4 +634,4 @@ Decrypter.decryptUint8Array = function(uint8Array) {
     return uint8Array;
 };
 
-}_();
+};
