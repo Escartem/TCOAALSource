@@ -1,5 +1,5 @@
 # TCOAALSource
-As request to me in dm, here's The Coffin of Andy and Leyley working RPG Maker project
+As requested to me in dm, here's The Coffin of Andy and Leyley working RPG Maker project
 
 ![img](https://bin.escartem.moe/2026/05/22/jUfrsh4jrD.png)
 
