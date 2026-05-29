@@ -671,7 +671,7 @@ DataManager["maxSavefiles"] = function () {
   return 50;
 }, DataManager.sortDesc = function (sortObj) {
   return sortObj["sort"]((matchObj, matchObj1) => {
-    let parseInt = parseInt(matchObj["match"](/(\d+)\.rpgsave$/i)[1]),
+    // let parseInt = parseInt(matchObj["match"](/(\d+)\.rpgsave$/i)[1]),
       parseInt1 = parseInt(matchObj1["match"](/(\d+)\.rpgsave$/i)[1]);
     return parseInt1 - parseInt;
   });
@@ -714,8 +714,8 @@ DataManager["maxSavefiles"] = function () {
 }, DataManager.loadSavefileImages = function (facesObj) {
   facesObj["faces"] = [];
   if (facesObj.characters) for (let i22 = 0; i22 < facesObj["characters"]["length"]; i22++) {
-    let encodeURIComponent = encodeURIComponent(facesObj["characters"][i22][0]),
-      charPath = "img/characters/" + encodeURIComponent + ".png";
+    // let encodeURIComponent = encodeURIComponent(facesObj["characters"][i22][0]),
+      charPath = "img/characters/" + encodeURIComponent(facesObj["characters"][i22][0]) + ".png";
     !App["redirect"](charPath) && (facesObj["characters"][i22][0] = "Actor1"), ImageManager["reserveCharacter"](facesObj["characters"][i22][0]);
   }
 }, DataManager.globalSet = function (key, value) {
